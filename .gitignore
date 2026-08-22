@@ -18,3 +18,14 @@ dist/
 venv/
 env/
 ENV/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
