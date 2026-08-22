@@ -29,3 +29,11 @@ ENV/
 htmlcov/
 .tox/
 .nox/
+
+# =========================
+# Type checkers / Linters
+# =========================
+
+.mypy_cache/
+.pyright/
+.ruff_cache/
