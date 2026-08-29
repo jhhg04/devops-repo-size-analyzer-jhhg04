@@ -73,6 +73,8 @@ Thumbs.db
 # Jupyter
 # =========================
 
+.ipynb_checkpoints/
+
 # =========================
 # Project generated files
 # =========================
