@@ -6,6 +6,8 @@ from reports import (
     print_summary,
 )
 
+def main() -> None:
+
 
 if __name__ == "__main__":
     main()
