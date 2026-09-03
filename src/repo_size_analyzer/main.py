@@ -5,3 +5,6 @@ from reports import (
     print_largest_folders,
     print_summary,
 )
+
+
+if __name__ == "__main__":
