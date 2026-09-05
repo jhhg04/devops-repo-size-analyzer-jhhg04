@@ -8,6 +8,8 @@ from reports import (
 
 def main() -> None:
 
+    if not REPO_PATH.exists():
+
 
 if __name__ == "__main__":
     main()
