@@ -12,6 +12,10 @@ def main() -> None:
         print(f"Repository not found: {REPO_PATH}")
         return
 
+    print_largest_folders(
+
+
+    )
 
 if __name__ == "__main__":
     main()
