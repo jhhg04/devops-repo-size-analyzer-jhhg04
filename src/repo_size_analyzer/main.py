@@ -10,6 +10,7 @@ def main() -> None:
 
     if not REPO_PATH.exists():
         print(f"Repository not found: {REPO_PATH}")
+        return
 
 
 if __name__ == "__main__":
