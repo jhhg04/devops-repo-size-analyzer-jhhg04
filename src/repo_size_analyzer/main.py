@@ -13,7 +13,7 @@ def main() -> None:
         return
 
     print_largest_folders(
-
+        stats,
 
     )
 
