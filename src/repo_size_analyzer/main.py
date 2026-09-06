@@ -12,6 +12,8 @@ def main() -> None:
         print(f"Repository not found: {REPO_PATH}")
         return
 
+    stats = scan_repository(REPO_PATH)
+
     print_largest_files(
         stats,
         TOP_FILES,
