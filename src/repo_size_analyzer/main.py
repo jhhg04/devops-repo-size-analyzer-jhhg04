@@ -12,6 +12,11 @@ def main() -> None:
         print(f"Repository not found: {REPO_PATH}")
         return
 
+    print_largest_files(
+
+
+    )
+
     print_largest_folders(
         stats,
         TOP_FOLDERS,
