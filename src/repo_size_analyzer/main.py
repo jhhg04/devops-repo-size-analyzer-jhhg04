@@ -14,7 +14,7 @@ def main() -> None:
 
     print_largest_folders(
         stats,
-
+        TOP_FOLDERS,
     )
 
 if __name__ == "__main__":
