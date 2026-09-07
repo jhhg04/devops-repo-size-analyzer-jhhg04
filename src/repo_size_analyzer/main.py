@@ -14,6 +14,7 @@ def main() -> None:
 
     if not REPO_PATH.is_dir():
         print(f"Path is not a directory: {REPO_PATH}")
+        return
 
     stats = scan_repository(REPO_PATH)
 
