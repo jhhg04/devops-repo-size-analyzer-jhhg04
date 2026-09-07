@@ -14,6 +14,8 @@ def main() -> None:
 
     stats = scan_repository(REPO_PATH)
 
+    print_summary(stats)
+
     print_largest_files(
         stats,
         TOP_FILES,
