@@ -12,6 +12,8 @@ def main() -> None:
         print(f"Repository not found: {REPO_PATH}")
         return
 
+    if not REPO_PATH.is_dir():
+
     stats = scan_repository(REPO_PATH)
 
     print_summary(stats)
