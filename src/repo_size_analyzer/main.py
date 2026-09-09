@@ -18,6 +18,7 @@ def main() -> None:
 
     print("=" * 100)
     print("REPOSITORY ANALYZER")
+    print("=" * 100)
 
     stats = scan_repository(REPO_PATH)
 
