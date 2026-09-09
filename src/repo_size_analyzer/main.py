@@ -16,6 +16,8 @@ def main() -> None:
         print(f"Path is not a directory: {REPO_PATH}")
         return
 
+    print("=" * 100)
+
     stats = scan_repository(REPO_PATH)
 
     print_summary(stats)
