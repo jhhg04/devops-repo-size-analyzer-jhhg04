@@ -7,3 +7,5 @@ def test_format_size_bytes() -> None:
 def test_format_size_kilobytes() -> None:
     """Test formatting values in kilobytes."""
     assert format_size(1024) == "1.00 KB" 
+
+def test_format_size_megabytes() -> None:    
