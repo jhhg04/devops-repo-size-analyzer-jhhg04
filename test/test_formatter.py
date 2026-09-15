@@ -17,3 +17,4 @@ def test_format_size_gigabytes() -> None:
     assert format_size(1024**3) == "1.00 GB"
 
 def test_format_size_zero() -> None:
+    """Test formatting zero bytes."""
