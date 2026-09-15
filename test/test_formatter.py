@@ -11,3 +11,5 @@ def test_format_size_kilobytes() -> None:
 def test_format_size_megabytes() -> None:
     """Test formatting values in megabytes."""
     assert format_size(1024**2) == "1.00 MB"
+
+def test_format_size_gigabytes() -> None:
