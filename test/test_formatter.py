@@ -18,3 +18,4 @@ def test_format_size_gigabytes() -> None:
 
 def test_format_size_zero() -> None:
     """Test formatting zero bytes."""
+    assert format_size(0) == "0.00 B"
