@@ -5,3 +5,5 @@ def test_scan_repository_counts_files(tmp_path: Path) -> None:
     """Test that the scanner detects files and calculates their sizes."""
     file_one = tmp_path / "file1.txt"
     file_two = tmp_path / "file2.txt"
+
+    file_one.write_text("hello", encoding="utf-8")
