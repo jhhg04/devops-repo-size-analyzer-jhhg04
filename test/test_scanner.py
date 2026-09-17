@@ -7,3 +7,4 @@ def test_scan_repository_counts_files(tmp_path: Path) -> None:
     file_two = tmp_path / "file2.txt"
 
     file_one.write_text("hello", encoding="utf-8")
+    file_two.write_text("hello world", encoding="utf-8")
