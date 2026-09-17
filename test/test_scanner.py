@@ -8,3 +8,5 @@ def test_scan_repository_counts_files(tmp_path: Path) -> None:
 
     file_one.write_text("hello", encoding="utf-8")
     file_two.write_text("hello world", encoding="utf-8")
+
+    stats = scan_repository(tmp_path)
