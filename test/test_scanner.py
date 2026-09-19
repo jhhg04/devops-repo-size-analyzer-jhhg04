@@ -16,3 +16,4 @@ def test_scan_repository_counts_files(tmp_path: Path) -> None:
 
 def test_scan_repository_ignores_configured_directories(tmp_path: Path) -> None:
     """Test that ignored directories are excluded from the scan."""
+    included_file = tmp_path / "included.txt"
