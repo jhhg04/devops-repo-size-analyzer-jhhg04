@@ -12,3 +12,4 @@ def test_scan_repository_counts_files(tmp_path: Path) -> None:
     stats = scan_repository(tmp_path)
 
     assert stats.total_files == 2
+    assert stats.total_size == 16
