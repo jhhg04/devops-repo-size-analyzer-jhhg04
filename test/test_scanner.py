@@ -15,3 +15,4 @@ def test_scan_repository_counts_files(tmp_path: Path) -> None:
     assert stats.total_size == 16
 
 def test_scan_repository_ignores_configured_directories(tmp_path: Path) -> None:
+    """Test that ignored directories are excluded from the scan."""
