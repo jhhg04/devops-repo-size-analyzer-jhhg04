@@ -20,3 +20,4 @@ def test_scan_repository_ignores_configured_directories(tmp_path: Path) -> None:
     included_file.write_text("included", encoding="utf-8")
 
     git_dir = tmp_path / ".git"
+    git_dir.mkdir()
