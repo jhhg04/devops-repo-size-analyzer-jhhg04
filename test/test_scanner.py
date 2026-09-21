@@ -21,3 +21,5 @@ def test_scan_repository_ignores_configured_directories(tmp_path: Path) -> None:
 
     git_dir = tmp_path / ".git"
     git_dir.mkdir()
+
+    ignored_file = git_dir / "ignored.txt"
