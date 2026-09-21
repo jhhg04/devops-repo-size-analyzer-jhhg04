@@ -18,3 +18,5 @@ def test_scan_repository_ignores_configured_directories(tmp_path: Path) -> None:
     """Test that ignored directories are excluded from the scan."""
     included_file = tmp_path / "included.txt"
     included_file.write_text("included", encoding="utf-8")
+
+    git_dir = tmp_path / ".git"
