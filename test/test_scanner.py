@@ -26,3 +26,5 @@ def test_scan_repository_ignores_configured_directories(tmp_path: Path) -> None:
     ignored_file.write_text("ignored", encoding="utf-8")
 
     stats = scan_repository(tmp_path)
+
+    assert stats.total_files == 1
