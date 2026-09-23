@@ -32,3 +32,4 @@ def test_scan_repository_ignores_configured_directories(tmp_path: Path) -> None:
 
 def test_scan_repository_detects_nested_files(tmp_path: Path) -> None:
     """Test that files inside nested directories are detected."""
+    nested_dir = tmp_path / "src" / "app"
