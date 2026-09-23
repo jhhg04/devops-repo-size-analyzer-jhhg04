@@ -29,3 +29,5 @@ def test_scan_repository_ignores_configured_directories(tmp_path: Path) -> None:
 
     assert stats.total_files == 1
     assert stats.total_size == len("included")
+
+def test_scan_repository_detects_nested_files(tmp_path: Path) -> None:    
