@@ -37,3 +37,5 @@ def test_scan_repository_detects_nested_files(tmp_path: Path) -> None:
 
     nested_file = nested_dir / "main.py"
     nested_file.write_text("print('hello')", encoding="utf-8")
+
+    stats = scan_repository(tmp_path)
