@@ -3,3 +3,4 @@ from pathlib import Path
 
 @dataclass
 class FileInfo:
+    path: Path
