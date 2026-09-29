@@ -8,3 +8,4 @@ class FileInfo:
 
 @dataclass
 class RepositoryStats:
+    files: list[FileInfo]
