@@ -9,3 +9,4 @@ class FileInfo:
 @dataclass
 class RepositoryStats:
     files: list[FileInfo]
+    folder_sizes: dict[Path, int]
