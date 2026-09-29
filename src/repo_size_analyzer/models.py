@@ -5,3 +5,6 @@ from pathlib import Path
 class FileInfo:
     path: Path
     size: int
+
+@dataclass
+    
