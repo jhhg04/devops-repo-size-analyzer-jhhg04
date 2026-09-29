@@ -7,4 +7,4 @@ class FileInfo:
     size: int
 
 @dataclass
-    
+class RepositoryStats:
