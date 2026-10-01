@@ -8,6 +8,7 @@ devops-repo-size-analyzer-jhhg04/
 │   └── repo_size_analyzer/
 │       ├── __init__.py
 │       ├── main.py
+│       ├── config.py
 │       ├── scanner.py
 │       ├── models.py
 │       ├── formatter.py
