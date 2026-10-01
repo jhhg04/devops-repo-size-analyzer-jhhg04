@@ -10,3 +10,4 @@ class FileInfo:
 class RepositoryStats:
     files: list[FileInfo]
     folder_sizes: dict[Path, int]
+    total_size: int
