@@ -12,3 +12,4 @@ class RepositoryStats:
     folder_sizes: dict[Path, int]
     total_size: int
     file_count: int
+    elapsed_seconds: float
