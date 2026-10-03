@@ -4,3 +4,4 @@ from pathlib import Path
 REPO_PATH = Path(r"C:\Repos\MyRepository")
 
 # Number of results to display
+TOP_FILES = 100
