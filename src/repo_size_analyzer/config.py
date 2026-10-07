@@ -16,5 +16,5 @@ IGNORED_FOLDERS = {
     ".vscode",
     "bin",
     "obj",
-
+    "__pycache__",
 }
