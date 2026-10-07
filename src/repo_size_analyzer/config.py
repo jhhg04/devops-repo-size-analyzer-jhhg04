@@ -12,7 +12,7 @@ IGNORED_FOLDERS = {
     ".git",
     ".terraform",
     ".idea",
-
+    ".vs",
 
 
 
