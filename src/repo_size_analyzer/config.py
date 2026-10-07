@@ -14,7 +14,7 @@ IGNORED_FOLDERS = {
     ".idea",
     ".vs",
     ".vscode",
-
+    "bin",
 
 
 }
