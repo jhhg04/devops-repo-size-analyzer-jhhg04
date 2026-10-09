@@ -1,1 +1,2 @@
 def format_size(size_bytes: int) -> str:
+    """Convert bytes into a human-readable format."""
