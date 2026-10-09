@@ -4,3 +4,4 @@ def format_size(size_bytes: int) -> str:
     size = float(size_bytes)
 
     for unit in ("B", "KB", "MB", "GB", "TB"):
+        if size < 1024:
