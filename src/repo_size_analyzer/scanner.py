@@ -12,3 +12,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     """Scan repository and collect file and directory statistics."""
 
     files: list[FileInfo] = []
+    folder_sizes: dict[Path, int] = {}
