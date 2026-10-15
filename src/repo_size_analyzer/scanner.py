@@ -9,3 +9,4 @@ def scan_repository(path: Path) -> bool:
     return any(part in IGNORED_FOLDERS for part in path.parts)
 
 def scan_repository(repo_path: Path) -> RepositoryStats:
+    """Scan repository and collect file and directory statistics."""
