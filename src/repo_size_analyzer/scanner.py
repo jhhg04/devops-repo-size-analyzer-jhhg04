@@ -16,3 +16,5 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
 
     total_size = 0
     file_count = 0
+
+    start = perf_counter()
