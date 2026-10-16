@@ -15,3 +15,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     folder_sizes: dict[Path, int] = {}
 
     total_size = 0
+    file_count = 0
