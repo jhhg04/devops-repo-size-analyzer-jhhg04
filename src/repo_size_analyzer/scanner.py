@@ -20,3 +20,5 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     start = perf_counter()
 
     for file_path in repo_path.rglob("*"):
+
+        if should_ignore(file_path):
