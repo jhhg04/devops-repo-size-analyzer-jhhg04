@@ -18,3 +18,5 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     file_count = 0
 
     start = perf_counter()
+
+    for file_path in repo_path.rglob("*"):
