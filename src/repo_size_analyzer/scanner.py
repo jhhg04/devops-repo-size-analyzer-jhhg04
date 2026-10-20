@@ -31,3 +31,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
             file_size = file_path.stat().st_size
 
         except (PermissionError, FileNotFoundError, OSError):
+            continue
