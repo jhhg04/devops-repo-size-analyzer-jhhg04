@@ -23,3 +23,5 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
 
         if should_ignore(file_path):
             continue
+
+        if not file_path.is_file():
