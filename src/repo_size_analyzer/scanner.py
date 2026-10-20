@@ -25,3 +25,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
             continue
 
         if not file_path.is_file():
+            continue
