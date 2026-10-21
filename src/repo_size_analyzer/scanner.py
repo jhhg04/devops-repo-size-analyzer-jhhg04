@@ -32,5 +32,3 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
 
         except (PermissionError, FileNotFoundError, OSError):
             continue
-
-        files.append(
