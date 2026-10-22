@@ -37,3 +37,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
             FileInfo(
                 path=file_path,
                 size=file_size,
+            ) 
