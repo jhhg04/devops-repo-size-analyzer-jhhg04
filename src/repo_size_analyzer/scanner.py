@@ -34,3 +34,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
             continue
 
         files.append(
+            FileInfo(
