@@ -38,4 +38,6 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
                 path=file_path,
                 size=file_size,
             )
-        )    
+        )
+
+        total_size += file_size
