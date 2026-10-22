@@ -41,3 +41,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
         )
 
         total_size += file_size
+        file_count += 1
