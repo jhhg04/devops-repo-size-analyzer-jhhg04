@@ -46,3 +46,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
         current_folder = file_path.parent
 
         while True:
+            folder_sizes[current_folder] = ()
