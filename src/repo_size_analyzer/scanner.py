@@ -50,3 +50,6 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
                 folder_sizes.get(current_folder, 0)
                 + file_size
             )
+
+            if current_folder == repo_path:
+            
