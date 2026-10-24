@@ -55,3 +55,5 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
                 break
 
             current_folder = current_folder.parent
+
+    elapsed = perf_counter() - start    
