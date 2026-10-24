@@ -52,4 +52,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
             )
 
             if current_folder == repo_path:
-            
+                break
