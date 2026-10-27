@@ -64,3 +64,4 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
 
 
         elapsed_seconds=elapsed,
+    )    
