@@ -62,6 +62,6 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
         files=files,
         folder_sizes=folder_sizes,
         total_size=total_size,
-
+        file_count=file_count,
         elapsed_seconds=elapsed,
     )    
