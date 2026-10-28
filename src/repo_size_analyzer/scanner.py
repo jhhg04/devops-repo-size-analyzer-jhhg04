@@ -59,7 +59,7 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     elapsed = perf_counter() - start
 
     return RepositoryStats(
-
+        files=files,
 
 
 
