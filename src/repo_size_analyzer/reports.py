@@ -11,3 +11,4 @@ def print_summary(stats: RepositoryStats) -> None:
 
     print("=" * 100)
     print("SUMMARY")
+    print("=" * 100)
