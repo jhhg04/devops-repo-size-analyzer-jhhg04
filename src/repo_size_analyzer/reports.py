@@ -3,4 +3,6 @@ from formatter import format_size
 
 def print_summary(stats: RepositoryStats) -> None:
 
-    average_size = ()
+    average_size = (
+        stats.total_size / stats.file_count
+    )
