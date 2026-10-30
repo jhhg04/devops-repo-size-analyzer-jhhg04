@@ -8,3 +8,5 @@ def print_summary(stats: RepositoryStats) -> None:
         if stats.file_count
         else 0
     )
+
+    print("=" * 100)
