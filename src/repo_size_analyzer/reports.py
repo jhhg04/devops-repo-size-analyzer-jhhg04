@@ -19,3 +19,5 @@ def print_summary(stats: RepositoryStats) -> None:
     print(f"Directories analyzed: {len(stats.directories):,}")
 
     print("=" * 100)
+
+def print_largest_files(
