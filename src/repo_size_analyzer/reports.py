@@ -17,3 +17,5 @@ def print_summary(stats: RepositoryStats) -> None:
     print(f"Total size          : {format_size(stats.total_size)}")
     print(f"Average file size   : {format_size(int(average_size))}")
     print(f"Directories analyzed: {len(stats.directories):,}")
+
+    print("=" * 100)
