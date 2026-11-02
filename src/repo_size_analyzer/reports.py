@@ -14,3 +14,4 @@ def print_summary(stats: RepositoryStats) -> None:
     print("=" * 100)
 
     print(f"Files analyzed      : {stats.file_count:,}")
+    print(f"Total size          : {format_size(stats.total_size)}")
