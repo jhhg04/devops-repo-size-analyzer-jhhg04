@@ -22,5 +22,5 @@ def print_summary(stats: RepositoryStats) -> None:
 
 def print_largest_files(
     stats: RepositoryStats,
-
+    limit: int,
 ) -> None:        
