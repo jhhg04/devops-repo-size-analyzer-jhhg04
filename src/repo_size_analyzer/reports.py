@@ -24,4 +24,6 @@ def print_largest_files(
     limit: int,
 ) -> None:        
 
-    largest_files = sorted()
+    largest_files = sorted(
+        stats.files,
+    )
