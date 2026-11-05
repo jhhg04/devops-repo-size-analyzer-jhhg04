@@ -29,3 +29,5 @@ def print_largest_files(
         key=lambda file: file.size,
         reverse=True,
     )
+
+    print()
