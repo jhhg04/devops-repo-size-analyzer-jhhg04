@@ -37,3 +37,6 @@ def print_largest_files(
 
     for file_info in largest_files[:limit]:
         print(
+                        
+            f"{file_info.path}"
+        )
