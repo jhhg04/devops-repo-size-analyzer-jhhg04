@@ -17,6 +17,7 @@ def print_summary(stats: RepositoryStats) -> None:
     print(f"Directories analyzed: {len(stats.folder_sizes):,}")
     print(f"Repository size     : {format_size(stats.total_size)}")
     print(f"Average file size   : {format_size(int(average_size))}")
+    print(f"Elapsed time        : {stats.elapsed_seconds:.2f} seconds")
 
 def print_largest_files(
     stats: RepositoryStats,
