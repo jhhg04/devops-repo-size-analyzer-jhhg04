@@ -27,4 +27,5 @@ def print_largest_files(
     largest_files = sorted(
         stats.files,
         key=lambda file: file.size,
+        reverse=True,
     )
