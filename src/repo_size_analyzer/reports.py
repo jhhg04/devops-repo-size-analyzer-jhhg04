@@ -34,3 +34,5 @@ def print_largest_files(
     print("=" * 100)
     print(f"TOP {limit} LARGEST FILES")
     print("=" * 100)
+
+    for file_info in largest_files[:limit]:
