@@ -40,3 +40,5 @@ def print_largest_files(
             f"{format_size(file_info.size):>12}  "   
             f"{file_info.path}"
         )
+
+def print_largest_folders()        
