@@ -41,4 +41,6 @@ def print_largest_files(
             f"{file_info.path}"
         )
 
-def print_largest_folders()        
+def print_largest_folders(
+    stats: RepositoryStats,
+)        
