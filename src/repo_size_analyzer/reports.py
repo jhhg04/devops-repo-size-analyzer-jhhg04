@@ -44,4 +44,4 @@ def print_largest_files(
 def print_largest_folders(
     stats: RepositoryStats,
     limit: int,
-)        
+)-> None:    
