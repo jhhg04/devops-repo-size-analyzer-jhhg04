@@ -49,4 +49,5 @@ def print_largest_folders(
     largest_folders = sorted(
         stats.folder_sizes.items(),
         key=lambda item: item[1],
+        reverse=True,
     ) 
