@@ -52,4 +52,5 @@ def print_largest_folders(
         reverse=True,
     )
 
-    print() 
+    print()
+     print("=" * 100)
