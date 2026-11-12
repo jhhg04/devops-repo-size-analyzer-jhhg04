@@ -53,4 +53,5 @@ def print_largest_folders(
     )
 
     print()
-     print("=" * 100)
+    print("=" * 100)
+    print(f"TOP {limit} LARGEST DIRECTORIES")
