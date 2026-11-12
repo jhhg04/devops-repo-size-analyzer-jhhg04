@@ -58,3 +58,4 @@ def print_largest_folders(
     print("=" * 100)
 
     for folder_path, folder_size in largest_folders[:limit]:
+        print()
