@@ -9,8 +9,8 @@ class FileInfo:
 @dataclass
 class RepositoryStats:
     total_files: int
+    total_size: int
     files: list[FileInfo]
     folder_sizes: dict[Path, int]
-    total_size: int
     file_count: int
     elapsed_seconds: float
