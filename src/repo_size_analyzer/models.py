@@ -8,6 +8,7 @@ class FileInfo:
 
 @dataclass
 class RepositoryStats:
+    total_files: int
     files: list[FileInfo]
     folder_sizes: dict[Path, int]
     total_size: int
