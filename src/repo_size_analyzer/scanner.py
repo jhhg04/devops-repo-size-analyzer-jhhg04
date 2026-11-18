@@ -12,6 +12,8 @@ def should_ignore(directory: Path) -> bool:
 def scan_repository(repo_path: Path) -> RepositoryStats:
     """Scan repository and collect file and directory statistics."""
 
+    repo_path = repo_path.resolve()
+
     files: list[FileInfo] = []
     folder_sizes: dict[Path, int] = {}
 
