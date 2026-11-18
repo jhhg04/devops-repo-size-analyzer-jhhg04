@@ -6,7 +6,7 @@ from config import IGNORED_FOLDERS
 from models import FileInfo, RepositoryStats
 
 def should_ignore(directory: Path) -> bool:
-    """Return True if the path contains an ignored folder."""
+    """Check whether a directory should be ignored."""
     return any(part in IGNORED_FOLDERS for part in path.parts)
 
 def scan_repository(repo_path: Path) -> RepositoryStats:
