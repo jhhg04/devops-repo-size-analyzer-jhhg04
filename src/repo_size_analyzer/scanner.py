@@ -7,7 +7,7 @@ from models import FileInfo, RepositoryStats
 
 def should_ignore(directory: Path) -> bool:
     """Check whether a directory should be ignored."""
-    return any(part in IGNORED_FOLDERS for part in path.parts)
+    return directory.name in IGNORED_FOLDERS
 
 def scan_repository(repo_path: Path) -> RepositoryStats:
     """Scan repository and collect file and directory statistics."""
