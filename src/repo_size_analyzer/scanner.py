@@ -15,7 +15,9 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     repo_path = repo_path.resolve()
 
     if not repo_path.exists():
-        raise FileNotFoundError()
+        raise FileNotFoundError(
+            f"Repository path does not exist: {repo_path}"
+        )
 
     files: list[FileInfo] = []
     folder_sizes: dict[Path, int] = {}
