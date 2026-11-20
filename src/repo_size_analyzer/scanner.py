@@ -22,8 +22,7 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     if not repo_path.is_dir():
         raise NotADirectoryError(
             f"Repository path is not a directory: {repo_path}"
-
-
+        )
 
     files: list[FileInfo] = []
     folder_sizes: dict[Path, int] = {}
