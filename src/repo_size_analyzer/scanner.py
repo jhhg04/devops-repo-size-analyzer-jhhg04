@@ -31,7 +31,8 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     total_size = 0
 
     for current_dir, dir_names, file_names in os.walk(
-        
+        repo_path,
+
 
     for file_path in repo_path.rglob("*"):
 
