@@ -30,6 +30,9 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     folder_sizes: dict[Path, int] = {}
     total_size = 0
 
+    for current_dir, dir_names, file_names in os.walk(
+        
+
     for file_path in repo_path.rglob("*"):
 
         if should_ignore(file_path):
