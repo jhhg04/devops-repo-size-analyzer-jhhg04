@@ -24,13 +24,11 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
             f"Repository path is not a directory: {repo_path}"
         )
 
+    start_time = time.perf_counter()
+
     files: list[FileInfo] = []
     folder_sizes: dict[Path, int] = {}
-
     total_size = 0
-    file_count = 0
-
-    start = perf_counter()
 
     for file_path in repo_path.rglob("*"):
 
