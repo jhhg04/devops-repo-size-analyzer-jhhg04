@@ -34,6 +34,7 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
         repo_path,
         followlinks=False,
     ):
+        current_path = Path(current_dir)
 
     for file_path in repo_path.rglob("*"):
 
