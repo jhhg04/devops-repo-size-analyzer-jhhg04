@@ -36,6 +36,8 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     ):
         current_path = Path(current_dir)
 
+        # Exclude ignored directories before traversal.
+
     for file_path in repo_path.rglob("*"):
 
         if should_ignore(file_path):
