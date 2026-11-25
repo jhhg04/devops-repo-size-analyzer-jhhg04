@@ -38,7 +38,7 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
 
         # Exclude ignored directories before traversal.
         dir_names[:] = [
-
+            name
 
         
         ]    
