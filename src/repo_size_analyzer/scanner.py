@@ -40,7 +40,7 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
         dir_names[:] = [
             name
             for name in dir_names
-        
+            if not should_ignore(current_path / name)
         ]    
 
     for file_path in repo_path.rglob("*"):
