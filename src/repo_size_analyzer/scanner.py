@@ -43,6 +43,8 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
             if not should_ignore(current_path / name)
         ]    
 
+    for file_name in file_names:
+        
     for file_path in repo_path.rglob("*"):
 
         if should_ignore(file_path):
