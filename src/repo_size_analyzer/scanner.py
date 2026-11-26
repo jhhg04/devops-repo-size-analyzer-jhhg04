@@ -46,6 +46,8 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
     for file_name in file_names:
         file_path = current_path / file_name
 
+        try:
+
     for file_path in repo_path.rglob("*"):
 
         if should_ignore(file_path):
