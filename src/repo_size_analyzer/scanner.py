@@ -47,7 +47,8 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
         file_path = current_path / file_name
 
         try:
-            if file_path.is_symlink() or not 
+            if file_path.is_symlink() or not
+            file_path.is_file():
 
     for file_path in repo_path.rglob("*"):
 
