@@ -51,6 +51,8 @@ def scan_repository(repo_path: Path) -> RepositoryStats:
             file_path.is_file():
                 continue
 
+            file_size = file_path.stat().st_size
+
     for file_path in repo_path.rglob("*"):
 
         if should_ignore(file_path):
